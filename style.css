@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+.container{
+    width: 600px;
+    background-color: white;
+    display: grid;
+
+    justify-items: center;
+     background-color:antiquewhite;
+}
+.logo{
+    height: 190px;
+    width: 200px;
+    background-image: url("soc-iitm-logo.jpg");
+    background-size: cover;
+}
+form{
+    margin: 20px 10px 10px 10px;
+}
+.userid,.password,.degree,.year,.sports,.textarea,.remember,.submitbtn,.textarea{
+     margin: 8px 0 8px 0;   
+}
+.password input{
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+}
+.userid input{
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+}
+.course{
+    width: 250px;
+    display:flex;
+    justify-content:space-between;
+}
+.year div{
+    width: 450px;
+    display:flex;
+    justify-content:space-between;
+}
+.sport{
+    display: grid;
+}
+

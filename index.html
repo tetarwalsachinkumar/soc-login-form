@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOC_Login_Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+         <div class="logo"></div>
+         <a href="https://study.iitm.ac.in/aboutIITM.html">IITM WEBSITE LINK</a>
+         <div class="form">
+           <form action="/action.php">
+                <div class="userid">
+                    <h2>Enter Your Email ID</h2>
+                    <input type="text" placeholder="user-id">
+                </div>
+                <div class="password">
+                    <h2>Enter Password</h2>
+                    <input type="password" placeholder="password">
+                </div>
+                <div class="degree">
+                    <h2>select Program</h2>
+                    <div class="course">
+                        <label><input type="radio" value="Btech" name="program">B-Tech</label>
+                        <label><input type="radio" value="Mtech" name="program">M-Tech</label>
+                        <label><input type="radio" value="PhD" name="program">Ph.D</label>
+                    </div>
+                </div>
+                <div class="year">
+                    <h2>Select Year of Study</h2>
+                    <div>
+                        <label><input type="radio" value="1" name="studyyear">1st year</label>
+                        <label><input type="radio" value="2" name="studyyear">2nd year</label>
+                        <label><input type="radio" value="3" name="studyyear">3rd year</label>
+                        <label><input type="radio" value="4" name="studyyear">4th year</label>
+                        <label><input type="radio" value="5" name="studyyear">5th year</label>
+                    </div>
+                </div>
+                <div class="sports">
+                    <h2>Select Sports</h2>
+                    <h4> in which you are interesting (can select more than one)</h4>
+                    <div class="sport">
+                    
+                            <label><input type="checkbox" value="cricket" name="sport">Cricket</label>
+                        <label><input type="checkbox" value="hockey" name="sport">Hockey</label>
+                    
+                        
+                            <label><input type="checkbox" value="football" name="sport">Football</label>
+                        <label><input type="checkbox" value="tennis" name="sport">Tennis</label>
+                    
+                       
+                         <label><input type="checkbox" value="badminton" name="sport">Badminton</label>
+                        <label><input type="checkbox" value="volleyball" name="sport">Volleyball</label>
+                
+                     <label><input type="checkbox" value="basketball" name="sport">Basketball</label>
+                        <label><input type="checkbox" value="weightlifting" name="sport">Weightlifting</label>
+                    
+                        <label><input type="checkbox" value="athletics" name="sport">Athletics</label>
+                    </div>
+                </div>
+                <div class="textarea">
+                    <textarea name="feedback" placeholder="Please give your valuable feedback and suggestions" rows="4"></textarea>
+                </div>
+                <div class="remember">
+                    <input type="checkbox" value="remember">Remember Me
+                </div>
+                <div class="submitbtn">
+                    <input type="submit" value="submit">
+                </div>
+           </form>
+        </div>
+    </div>
+</body>
+</html>
